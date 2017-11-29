@@ -1,0 +1,43 @@
+MY INFO:
+    Daniel Garcia
+    ID: dg16s
+    undergraduate
+
+DESIGN OVERVIEW:
+    This program is a MIPS assembler. The structures in this program are
+    an instruction and labels. Instructions hold common information
+    (opcode, rs, rt, rd, etc). Labels hold its address, values, and the
+    title of the lable(stored in a char array). The main function will
+    parce the instructions one by one and organizes them into lable (if needed)
+    sturcts, and copies them into a large char array. afterwards the char
+    array is walked through for each instruction and placed in to apt
+    types and format. Functions (placed above main) are used to determine
+    the register number, type, address of labels, and opcode. 'lw' and 'sw'
+    account for offsets. Output then follows.
+
+BUGS (and limitations):
+    This program does not check for formatting errors. There is a 256
+    instruction cap. Does not support lables that are larger than 10 char.
+    The supported instructions are:
+    -ADD
+    -ADDI
+    -NOR
+    -ORI
+    -SLL
+    -LUI
+    -SW
+    -LW
+    -BNE
+    -J
+    -LA
+
+    The supported registers are:
+    -$t0-$t7
+    -$s0-$s7
+    -$0
+
+    The supported directives are:
+    -.data
+    -.text
+    -.space
+    -.word

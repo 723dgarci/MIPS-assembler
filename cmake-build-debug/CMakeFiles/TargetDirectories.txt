@@ -1,0 +1,3 @@
+C:/Users/WorkD/CLionProjects/untitled/Comp Org 2/Practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/WorkD/CLionProjects/untitled/Comp Org 2/Practice/cmake-build-debug/CMakeFiles/Practice.dir
+C:/Users/WorkD/CLionProjects/untitled/Comp Org 2/Practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
